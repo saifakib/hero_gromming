@@ -1,0 +1,25 @@
+.orange-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.categories img{
+    width: 100px;
+}
+.price {
+    color: #FF136F;
+}
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.panda-border {
+    border: 0;
+}
+.panda-footer{
+    border-top: 0;
+    background-color: #fff;
+}
