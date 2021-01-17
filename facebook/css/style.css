@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: rgb(60, 90, 153);
+    overflow: hidden;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+}
+
+.logo-area {
+    width: 30%;
+    float: left;
+}
+
+.logo-area img {
+    margin-top: 20px;
+}
+
+.login-area {
+    width: 70%;
+    float: left;
+}
+
+.login-area form {
+    float: right;
+}
+
+.login-area label,
+.login-area input {
+    display: block;
+}
+
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.login-area .password a {
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-area .password a:hover {
+    text-decoration: underline;
+}
+
+.login-area .login {
+    margin-right: 0;
+    padding-top: 22px;
+}
+
+
+/* signup area */
+.left-area {
+    width: 55%;
+    float: left;
+}
+
+.left-area p {
+    font-size: 20px;
+    color: #0e3def;
+    font-weight: 600;
+    width: 90%;
+}
+
+.left-area img {
+    width: 100%;
+    width: 90%;
+}
+
+.right-area {
+    width: 45%;
+    float: left;
+}
+
+.right-area h2 {
+    color: #000;
+    font-size: 33px;
+    margin: 0;
+}
+
+.right-area h4 {
+    margin: 0;
+    color: #000;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"] {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    margin: 5px 0px;
+    font-size: 18px;
+
+}
+
+.fullname {
+    display: flex;
+}
+
+.firstname {
+    margin-right: 5px;
+    border-radius: 0;
+}
+
+.birthday {
+    width: 100%;
+}
+
+.birthday h3 {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.birthdate {
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.birthdate select {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.gender {
+    display: block;
+    color: #000
+}
+
+.btn-signup {
+    margin-bottom: 15px;
+}
+
+.btn-signup input[type="button"] {
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
