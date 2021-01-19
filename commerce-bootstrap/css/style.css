@@ -1,0 +1,65 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#id {
+    background-color: burlywood;
+}
+.nike-color {
+    color: orange;
+    font-size: 58px;
+    font-weight: 520;
+}
+.infinity-color {
+    color: #363958;
+    font-size: 58px;
+    font-weight:520;
+}
+.navbar-brand img {
+    height:39.27px;
+    width:  291.11px;
+}
+.nav-item-sizing {
+    padding: 8px 10px;
+    margin-right: 20px;
+}
+.intro  img {
+    width: 100%;
+}
+.btn-customize {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    width: 140px;
+    height: 47px;
+    border:0;
+    background: #3543BC;
+    border-radius: 5px;
+}
+.btn-logo {
+    width: 20px !important;
+    height: 20px !important;
+}
+.heding-title {
+    color: #363958;
+    font-size: 38px;
+    font-weight: 500;
+}
+.card-customize {
+    border-style: none;
+
+}
+.show {
+    background-color:#F1F1F1; 
+    border-radius: 15px;
+}
+.dollar-color {
+    color: #FA804C;
+    font-weight: 800;
+}
+.img-height {
+    height: 130px;
+    width: 130px;
+}
