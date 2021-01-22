@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="card px-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Awesome Todo list</h4>
+                            <h3 id="title">This is heading</h3>
+                            <div class="add-items d-flex"> <input type="text"
+                                    class="item-name form-control todo-list-input">
+                                <button class="add btn btn-primary font-weight-bold todo-list-add-btn">Add</button>
+                            </div>
+                            <div class="list-wrapper">
+                                <ul id="ready-task" class="d-flex flex-column-reverse todo-list">
+                                    <li>
+                                        <div><label class="form-check-label"> <input class="checkbox" type="checkbox">
+                                                For what reason would it be
+                                                advisable. <i class="input-helper"></i></label> </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper mt-5 complete">
+                                <ul class="d-flex flex-column-reverse todo-list">
+                                    <li>
+                                        <div> <label class="form-check-label"> For what reason would it be
+                                                advisable. <i class="input-helper"></i></label> </div> <i
+                                            class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
