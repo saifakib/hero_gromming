@@ -36,10 +36,6 @@ function firstClassMinusCount() {
     
 };
 
-function firstClassAmount(seat, price) {
-    let total = price * seat;
-    totalAmount(total, 'firstClass')
-}
 
 function economyClassPlusCount() {
     economicClassSeat = parseInt(economyClassInput.value);
@@ -57,10 +53,7 @@ function economyClassMinusCount() {
         totalAmount();
     }
 }
-function economicClassAmount(seat, price) {
-    let total = price * seat;
-    totalAmount(total, 'economicClass')
-}
+
 
 function totalAmount() {
     let firstClsSeat = document.querySelector('.f-first-class input[type="number"]').value;
