@@ -1,3 +1,6 @@
-/* .img_jmbo {
-    backgroundImage: url('../public/cover-photo/studiam-cover.webp');
-  } */
+.bgCover {
+  background-image: url('https://st2.depositphotos.com/3725083/5374/i/600/depositphotos_53743487-stock-photo-football-stadium.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
