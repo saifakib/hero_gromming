@@ -21,7 +21,7 @@ function LeagueDetails({ match }) {
 
       <div className="container">
         <div className="row mt-4 mb-4 rounded bg-success d-flex justify-content-between">
-          <div className="col-6 px-5 py-2 text-white">
+          <div className="col-6 px-5 py-2 mt-5 text-white">
             <h5 className="font-weight-bold">{leagueDetails.strLeagueAlternate}</h5>
             <p>Founded: {leagueDetails.intFormedYear}</p>
             <p>Country: {leagueDetails.strCountry}</p>
@@ -36,7 +36,7 @@ function LeagueDetails({ match }) {
             )}
           </div>
         </div>
-        <div className="row bg-danger">
+        <div className="row">
           <div className="col-12 px-5 py-2">
             <p className="text-justify">
               {leagueDetails.strDescriptionEN}
