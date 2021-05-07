@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 25, 47);
+}
+
+.primary-text-color {
+    color: rgb(100, 255, 218);
+}
+
+.secondary-text-color {
+    color: rgb(136, 146, 176);
+}
+
+.project-title {
+    color: rgb(179, 255, 237);
+}
+
+.nav-item {
+    margin: 0 13px;
+}
+
+.nav-link {
+    font-size: 13px;
+    color: rgb(204, 214, 246);
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+}
+
+.li-color {
+    font-family: 'Barlow', sans-serif;
+}
+
+.li-color .nav-item:hover {
+    color: rgb(100, 255, 218);
+}
+
+.custom-sizing {
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    color: rgb(100, 255, 218);
+}
+
+.custom-sizing:hover {
+    opacity: 0.6;
+}
+
+.social-list {
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    color: rgb(168, 178, 209);
+}
+
+.mail-address {
+    width: 40%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(168, 178, 209);
+}
+
+.mail {
+    float: right;
+    align-items: flex-end;
+    transform: rotate(-90deg);
+}
+
+.mail::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin: 0px 10px;
+    margin-top: 30px;
+    background-color: rgb(168, 178, 209);
+}
+
+.social-list ul {
+    list-style: outside none none;
+}
+
+.socila-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-class {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+}
+
+.so-li {
+    color: rgb(168, 178, 209);
+}
+
+.so-li:last-child::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 120px;
+    margin: 0px 10px;
+    margin-top: 30px;
+    background-color: rgb(168, 178, 209);
+}
+
+
+.intro-text {
+    width: 60%;
+}
+
+.into-text-weight {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.intro-btn {
+    margin: 45px auto;
+    padding: 16px 28px;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    background: none;
+    color: rgb(100, 255, 218);
+}
+
+.intro-btn:hover {
+    opacity: 0.5;
+}
+
+.section-about-title {
+    font-weight: 600;
+    color: rgb(230, 241, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.section-about-title::before {
+    counter-increment: section 1;
+    content: "0"counter(section) ".";
+    margin-right: 10px;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+    position: relative;
+}
+
+.section-about-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(45, 57, 82);
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+}
+
+.about-color {
+    color: rgb(136, 146, 176);
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.skill {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 13px;
+    color: rgb(136, 146, 176);
+    list-style: none;
+}
+
+.skill::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.img-style {
+    position: relative;
+    top: -40px;
+    left: 30px;
+    bottom: 20px;
+    width: 70%;
+    height: 90%;
+    border: 3px solid rgb(100, 255, 218);
+    border-radius: 5px;
+    border-spacing: 10px;
+    object-position: center center;
+    transition: width 2s, top 2s, transform 1s, opacity 500ms ease 0s;
+
+}
+
+.img-style:hover {
+    opacity: 0.8;
+    width: 75%;
+    top: -35px;
+    transform: rotate(360deg);
+}
+
+.section-work-title {
+    font-weight: 600;
+    color: rgb(230, 241, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.section-work-title::before {
+    counter-increment: section 2;
+    content: "0"counter(section) ".";
+    margin-right: 10px;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+    position: relative;
+}
+
+.section-work-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(45, 57, 82);
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+}
+
+.collapse-btn {
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    font-size: 13px;
+    color: rgb(136, 146, 176);
+    text-decoration: none;
+    background: none;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+}
+
+.collapse-btn:hover {
+    opacity: 0.6;
+}
+
+.card-bg {
+    background: rgb(10, 25, 47) !important;
+}
+
+.company-title {
+    color: rgb(204, 214, 246);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.working-time {
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: rgb(168, 178, 209);
+    margin-bottom: 30px;
+}
+
+.working-summery {
+    padding: 0px;
+    margin: 0px;
+    list-style: outside none none;
+    font-size: 18px;
+    color: rgb(136, 146, 176);
+}
+
+.summery-list {
+    position: relative;
+    padding-left: 30px;
+}
+
+.summery-list::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: rgb(100, 255, 218);
+    line-height: 22px;
+}
+
+
+
+.section-build-title {
+    font-weight: 600;
+    color: rgb(230, 241, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.section-build-title::before {
+    counter-increment: section 3;
+    content: "0"counter(section) ".";
+    margin-right: 10px;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+    position: relative;
+}
+
+.section-build-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(45, 57, 82);
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+}
+
+.created-with {
+    padding-top: 0;
+    display: flex;
+}
+
+.language {
+    padding: .2rem;
+    margin-right: .3rem;
+    font-size: 15px;
+    color: rgb(136, 146, 176);
+}
+
+
+.what-next::before {
+    content: "04 What's Next?";
+    margin-right: 10px;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: 100;
+    color: rgb(100, 255, 218);
+    font-size: 15px;
+    position: relative;
+}
+
+.get-touch-text-weight {
+    font-size: 50px;
+    font-weight: 800;
+}
